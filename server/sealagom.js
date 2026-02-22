@@ -6,7 +6,7 @@ const fetch = require('node-fetch');
  * - https://api.sealagom.com/navarea/4
  * - https://sealagom.com/api/navarea/4/messages
  */
-const API_URL_TEMPLATE = (navarea) => `https://sealagom.com/navarea/${navarea}`;
+const API_URL_TEMPLATE = (navarea) => `https://www.sealagom.com/api/v1/navarea/${navarea}`;
 
 /**
  * Erwartet: JSON mit messages Array (wie im Flow).
