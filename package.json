@@ -17,5 +17,7 @@
     "start": "node index.js",
     "lint": "node -e \"console.log('lint: not configured')\""
   },
-  "dependencies": {}
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
 }
