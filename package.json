@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "description": "Signal K Plugin + Webapp: NAVAREA Warnings von sealagom.com (Token, NAVAREA-Auswahl, Polling)",
   "main": "index.js",
+  "signalk-plugin": {
+    "name": "signalk-sealagom-navarea",
+    "description": "NAVAREA Warnings von sealagom.com",
+    "main": "index.js"
+  },
   "keywords": [
     "signalk-node-server-plugin",
     "signalk",
