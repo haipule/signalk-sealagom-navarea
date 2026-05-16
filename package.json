@@ -5,7 +5,6 @@
   "main": "index.js",
   "signalk": {
   "displayName": "Sealagom NAVAREA",
-  "type":"plugin"
   },
   "keywords": [
     "signalk-node-server-plugin",
