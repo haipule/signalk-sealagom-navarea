@@ -3,10 +3,9 @@
   "version": "0.0.2",
   "description": "Signal K Plugin + Webapp: NAVAREA Warnings von sealagom.com (Token, NAVAREA-Auswahl, Polling)",
   "main": "index.js",
-  "signalk-plugin": {
-    "name": "signalk-sealagom-navarea",
-    "description": "NAVAREA Warnings von sealagom.com",
-    "main": "index.js"
+  "signalk": {
+  "displayName": "Sealagom NAVAREA",
+  "type":"plugin"
   },
   "keywords": [
     "signalk-node-server-plugin",
@@ -18,10 +17,11 @@
   "author": "haipule",
   "license": "MIT",
   "private": false,
-  "scripts": {
-    "start": "node index.js",
-    "lint": "node -e \"console.log('lint: not configured')\""
-  },
+"scripts": {
+  "start": "node index.js",
+  "check": "node -c index.js",
+  "lint": "node -e \"console.log('lint: not configured')\""
+},
   "dependencies": {
     "node-fetch": "^2.7.0"
   }
